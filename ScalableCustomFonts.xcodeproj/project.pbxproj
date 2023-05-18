@@ -11,6 +11,8 @@
 		2070F9132A165CA10026FD78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070F9122A165CA10026FD78 /* ContentView.swift */; };
 		2070F9152A165CA20026FD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2070F9142A165CA20026FD78 /* Assets.xcassets */; };
 		2070F9182A165CA20026FD78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2070F9172A165CA20026FD78 /* Preview Assets.xcassets */; };
+		2070F9222A165D840026FD78 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2070F9212A165D840026FD78 /* Satisfy-Regular.ttf */; };
+		2070F9262A165E8C0026FD78 /* CustomFont+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070F9252A165E8C0026FD78 /* CustomFont+Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,10 @@
 		2070F9122A165CA10026FD78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2070F9142A165CA20026FD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2070F9172A165CA20026FD78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2070F9212A165D840026FD78 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		2070F9232A165DAA0026FD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2070F9252A165E8C0026FD78 /* CustomFont+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomFont+Font.swift"; sourceTree = "<group>"; };
+		2070F9272A1669D80026FD78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		2070F9042A165CA10026FD78 = {
 			isa = PBXGroup;
 			children = (
+				2070F9272A1669D80026FD78 /* README.md */,
 				2070F90F2A165CA10026FD78 /* ScalableCustomFonts */,
 				2070F90E2A165CA10026FD78 /* Products */,
 			);
@@ -51,6 +58,9 @@
 		2070F90F2A165CA10026FD78 /* ScalableCustomFonts */ = {
 			isa = PBXGroup;
 			children = (
+				2070F9232A165DAA0026FD78 /* Info.plist */,
+				2070F91E2A165CA90026FD78 /* fonts */,
+				2070F9242A165DCA0026FD78 /* extension */,
 				2070F9102A165CA10026FD78 /* ScalableCustomFontsApp.swift */,
 				2070F9122A165CA10026FD78 /* ContentView.swift */,
 				2070F9142A165CA20026FD78 /* Assets.xcassets */,
@@ -65,6 +75,22 @@
 				2070F9172A165CA20026FD78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2070F91E2A165CA90026FD78 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2070F9212A165D840026FD78 /* Satisfy-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		2070F9242A165DCA0026FD78 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				2070F9252A165E8C0026FD78 /* CustomFont+Font.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2070F9222A165D840026FD78 /* Satisfy-Regular.ttf in Resources */,
 				2070F9182A165CA20026FD78 /* Preview Assets.xcassets in Resources */,
 				2070F9152A165CA20026FD78 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2070F9262A165E8C0026FD78 /* CustomFont+Font.swift in Sources */,
 				2070F9132A165CA10026FD78 /* ContentView.swift in Sources */,
 				2070F9112A165CA10026FD78 /* ScalableCustomFontsApp.swift in Sources */,
 			);
@@ -270,6 +298,7 @@
 				DEVELOPMENT_TEAM = RW9GMW82XW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScalableCustomFonts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +328,7 @@
 				DEVELOPMENT_TEAM = RW9GMW82XW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScalableCustomFonts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
