@@ -10,7 +10,6 @@ import SwiftUI
 extension Font {
     /// ScaledValue -  you would use this method to obtain an appropriately scaled height for your button's background content.
     static func satisfy(_ size: CGFloat) -> Font {
-        let scaledSize = UIFontMetrics.default.scaledValue(for: size)
-        return Font.custom("Satisfy-Regular", size: scaledSize)
+        return Font.custom("Satisfy-Regular", size: size)
     }
 }
