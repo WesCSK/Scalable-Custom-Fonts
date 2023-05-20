@@ -4,13 +4,13 @@
 
 # Dynamics and Scalable Custom Font in SwiftUI | Accessibility
 
-Learn how to dynamic and scalable custom font in SwiftUI. It will increase the font size accordingly to the setting set by the user device.
+Learn how to dynamic and scalable custom font in SwiftUI. It will increase the font size accordingly to the setting set by the user device which can helps users who need larger text for better readability. It also accomodates those who can read smaller text, allowing more information to appear on the screen. Apps that support Dynamic Type also provide a more consistent reading experience.
 
 - There is no starting project
 
 <br/>
 
-[![](https://markdown-videos.deta.dev/youtube/0bg7x37p_JU)](https://youtu.be/0bg7x37p_JU)
+[![](https://markdown-videos.deta.dev/youtube/y4HGe3oz6ms)](https://youtu.be/y4HGe3oz6ms)
 
 <br/>
 <br/>
